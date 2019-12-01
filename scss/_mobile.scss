@@ -40,10 +40,20 @@
         transform: translate3d(100%, 0, 0);
 
         .portrait {
-            background: url('../img/portrait_small.jpg');
-            width: 150px;
-            height: 150px;
+            background: url('../img/portrait - Copy.jpg');
+            width: 205px;
+            height: 205px;
         }
+    }
+    .about-info {
+        grid-template-areas:
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
     }
 }
 
