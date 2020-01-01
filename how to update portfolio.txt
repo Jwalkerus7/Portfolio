@@ -1,7 +1,0 @@
-portfolio:
-
-git add .
-git commit -m ""
-git push -u origin master
-
-npm run deploy
